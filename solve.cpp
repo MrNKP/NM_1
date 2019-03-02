@@ -8,6 +8,7 @@
 
 using namespace std;
 
+//Input
 vector<double> getValues(QString src)
 {
     vector<double> result;
@@ -32,6 +33,7 @@ vector<double> getValues(QString src)
     return result;
 }
 
+//2 degree
 vector<double> countTable(vector<double> src)
 {
     vector<double> result;
@@ -49,6 +51,7 @@ vector<double> countTable(vector<double> src)
     return result;
 }
 
+//3 degree
 vector<double> countAccuracy(vector<double> src)
 {
     vector<double> result;
